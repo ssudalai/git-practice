@@ -1,15 +1,31 @@
+
+
+//anonymous function
+
 var numbers=[1,2,3,4,5,6,7,8,9];
 
 var fnoddnumbers = function(arr){
-         for (var i=0; i<arr.length; i++){
+          for (var i=0; i<arr.length; i++){
             if (arr[i]%2!==0){
                   console.log(arr[i]);
-
+                }
             }
+        }
 
-         }
+fnoddnumbers(numbers);
 
+
+// IIFE Function
+
+(function(arr){
+    for (var i=0; i<arr.length; i++){
+        if (arr[i]%2!==0){
+              console.log(arr[i]);
+            }
+        }
 
 }
 
-fnoddnumbers(numbers);
+
+
+)(numbers);
