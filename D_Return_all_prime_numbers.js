@@ -1,12 +1,19 @@
-//anonymous function
+let B = [1, 2, 3, 4, 5, 99, 7, 8, 9];
 
-let B =[1,2,3,4,5,6,7,8,9]
-
-for(i=0; i<B.length;i++){
-
-    if (B[i]/B[i]==B[i] && B[i]/B[i]==1){
-        console.log(B[i] ,"is a prime number")
-    }else {
-        console.log("it is a composite number ")
+let isPrime = function (M) {
+    if (M < 2) {
+        return `${M} is not a prime number`; 
     }
-}
+
+    for (let i = 2; i * i <= M; i++) { 
+        if (M % i === 0) {
+            return `${M} is not a prime number`; 
+        }
+    }
+    return `${M} is a prime number`; 
+};
+
+
+B.forEach((number) => {
+    console.log(isPrime(number));
+});
