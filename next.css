@@ -1,0 +1,42 @@
+.container{
+    width:60%;
+    height: 900px;
+    background-color: white;
+    border: 5px solid black;
+    margin-left:350px;
+    
+
+}
+
+
+
+.firstname{
+    display: inline;
+    height: 20px;
+    width: 250px;
+    margin-left: 15px;
+
+}
+
+.Name{
+    display:inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top:10px;
+}
+.firstnameone{
+    margin-left:15px;
+    padding-top: 5px;
+}
+
+.mandatesymbol {
+    color: red; 
+    font-weight: bold; 
+    font-size: 1.2em; 
+}
+.lastname{
+    display: inline;
+    height: 20px;
+    width: 250px;
+    margin-left: 15px;
+}
