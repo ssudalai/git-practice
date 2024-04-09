@@ -1,39 +1,44 @@
-.container{
-    width:60%;
-    height: 900px;
-    background-color: white;
-    border: 5px solid black;
-    margin-left:350px;
-    
+.main-container{
+
+  border: 1px black solid;
+  height:800px;
+  width:75%;
+  margin-left:15rem;
+  margin-right:14rem;
+  background-color: antiquewhite;
+}
+.sub-container{
+  margin: 5px;
+  padding: 5px;
+  display:flex;
 
 }
-
-
-
-.formnameemail {
-    display: flex; 
-    
-  }
+.formone{
+  margin:55px;
   
-  .input-fields {
-    display: flex; 
-    
-  }
-  
-  .firstname,
-  .lastname {
-    margin-right: 10px; 
 }
-  
-.formnameemail {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .formnameemail label,
-  .formnameemail input,
-  .formnameemail span {
-    display: block;
-    margin-bottom: 10px; 
-  }
+.input-forms{
+
+  display:flex;
+}
+.First{
+  height: 25px;
+  width: 350px;
+
+}
+.Last{
+  height: 25px;
+  width: 350px;
+  margin-left: 35px;
+}
+.down-holder{
+  display:flex;
+}
+
+.last-holder{
+
+  margin-left: 365px;
+}
+.email{
+  length: px;
+}
