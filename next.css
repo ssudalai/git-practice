@@ -1,72 +1,41 @@
-.main-container{
-
-  border: 1px black solid;
-  height:800px;
-  width:75%;
-  margin-left:15rem;
-  margin-right:14rem;
-  background-color: sandybrown;
-}
-.sub-container{
-  margin: 5px;
-  padding: 5px;
-  display:flex;
-
-}
-.formone{
-  margin:55px;
-  
-}
-.input-forms{
-
-  display:flex;
-}
-.First{
-  height: 25px;
-  width: 350px;
-
-}
-.Last{
-  height: 25px;
-  width: 350px;
-  margin-left: 35px;
-}
-.down-holder{
-  display:flex;
-}
-
-.last-holder{
-
-  margin-left: 365px;
-}
-.email{
-  height:25px;
-  width: 750px;
-}
-.rating{
-  font-size: 25px;
-}
-.tableone{
-  
-  display: flex;
-  margin-left: 150px;
-
-}
-.headone{
+.container{
+  width: 80%;
+  height: 1200px;
+  border:1px solid black;
   margin-left: 25px;
+  
 }
-.headtwo{
-  margin-left: 150px;
+.form-label{
+  display:block;
 }
-.headthree{
-  margin-left: 150px;
+.form-content{
+  margin-left: 1%;
+
+  margin-top:2.5%;
+
 }
-.headfour{
-  margin-left: 150px;
+.mb-3{
+  width:25%;
+  display: inline-flex;
+  margin-top:15px;
 }
-.headfive{
-  margin-left: 150px;
+
+.holders{
+  display: inline;
 }
-.firstrow{
-  display:flex;
+
+.email{
+  width:55%;
+  margin-left: 1%;
+}
+
+.exp-Container{
+  margin-left: 1%;
+}
+.checked {
+  color: orange;
+  margin-left: 1%;
+}
+
+.table-container{
 }
