@@ -20,3 +20,18 @@
     text-align: center;
 }
 
+.poetone{
+    display:flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+.poettwo{
+    display:flex;
+    flex-direction: column;
+    margin-left: 25%;
+
+}
+.rounded float-end{
+
+    height: 252px;
+}
