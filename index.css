@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: white;
+    margin-right: 10%;
+    margin-left:10%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Poppins', serif;
+    display: flex;
+    align-items: center; 
+}
+
+.logo-icon {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    padding-left: 0;
+    padding-bottom: 10px; 
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+.login {
+    margin-right: 20px;
+    text-decoration: none;
+    color: orange;
+    font-size: 16px;
+}
+
+.signup {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+#travel-ad{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-left: 18%;
+    padding-right: 10%;
+
+}
+
+.dis-button{
+    margin-left: 210px;
+    height: 50px;
+    width: 150px;
+    color: orange;
+    border: solid orange 1px;
+    
+    
+}
+.explore{
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 415px;
+    gap: 3rem;
+    
+    
+}
+.Expl-button{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: rgb(222, 107, 20);
+    border: none;
+    
+
+}
+.Things{
+    margin-top: 27px;
+    margin-left: 525px;
+}
+.thingspara{
+    margin-left: 525px;
+}
+.white-box{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 35px;
+    margin-left: 450px;
+
+}
+.exclusive{
+    width: 675;
+    height: 142;
+    margin-top: 25px;
+    margin-left:475px;
+    
+}
+.picture-one{
+    display: flex;
+    justify-content: space-between;
+}
+.pagination {
+    display: flex;
+    gap: 10px; /* space between buttons */
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 25px;
+}
+
+.page-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff; /* white */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.page-btn.active {
+    background-color: #ff7b29; /* orange */
+    color: white;
+}
+
+.vacation-plan{
+    margin-left: 525px;
+    margin-top:150px;
+    display: flex;
+}
+#pagination-1{
+    margin-left: 1160px;
+    display: flex;
+    gap: 16px;
+}
+.last_before{
+    display: flex;
+    margin-left: 275px;
+    margin-top: 30px;
+    gap: 2rem;
+}
+.inside-div{
+    display: flex;
+}
+.big-one{
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.pagination-three{
+    margin-right: 270px;
+    display: flex;
+    margin: 35px;
+}
+.onetwo{
+    display: flex;
+    margin-left: 450px;
+    
+}
+.man-face{
+    display: flex;
+}
+.pagination-fourfive{
+    margin-left: 200px;
+    display: flex;
+    gap: 1rem;
+}
+
+.header-number-one{
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.four-new{
+    display: flex;
+    margin-top: 75px;
+    gap: 30px;
+    margin-left: 300px;
+}
+.dots {
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #ddd; /* Light grey */
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  
+  .dot.active {
+    background-color: #ff6600; /* Orange */
+  }
+  
+.subscribe-section {
+  background-color: #ff7f30; /* Orange */
+  padding: 40px 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  width: 800px;
+  margin-left: 250px;
+  margin-top: 45px;
+}
+
+.subscribe-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: inline-flex;
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.subscribe-form input[type="email"] {
+  border: none;
+  padding: 10px 15px;
+  outline: none;
+  font-size: 16px;
+  width: 400px;
+}
+
+.subscribe-form button {
+  background-color: #ff7f30;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.subscribe-form button:hover {
+  background-color: #ff6200;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f9fafb;
+    padding: 60px 80px 30px 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 60px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 30px;
+  }
+  
+  .footer-about {
+    flex: 1 1 300px;
+  }
+  
+  .footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 10px;
+  }
+  
+  .footer-description {
+    margin-bottom: 20px;
+  }
+  
+  .footer-socials {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-socials a {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-socials img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 60px;
+    flex: 2 1 500px;
+    margin-top: 30px;
+  }
+  
+  .footer-column h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #6b7280;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #111827;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  .footer-bottom a {
+    text-decoration: none;
+    color: #6b7280;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-bottom a:hover {
+    color: #111827;
+  }
+  
+
